@@ -1,0 +1,33 @@
+.colors__darkShade100 {
+    width: 281px;
+    height: 70px;
+}
+.colors__darkShade100_square {
+    width: 70px;
+    height: 70px;
+    background-color: #1F2041;
+    border-radius: 6px;
+}
+.square {
+    position: absolute;
+    left: 150px;
+    top: 145px;
+}
+.colors__darkShade100_text {
+    width: 171px;
+    height: 56px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.text_smaller{
+    font-size: 20px;
+    font-weight: 50;
+}
+.text {
+    position: absolute;
+    left: 260px;
+    top: 152px;
+
+}

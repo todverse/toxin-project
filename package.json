@@ -6,10 +6,13 @@
   "dependencies": {
     "parcel-bundler": "^1.12.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "sass": "^1.39.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/colors&types/colors&types.pug --open",
+    "start": "parcel src/colorsTypes/colorsTypes.pug --open",
     "build": "parcel build src/index.pug -d docs --public-url ./"
   },
   "repository": {
