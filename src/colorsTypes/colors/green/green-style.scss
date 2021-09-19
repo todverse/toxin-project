@@ -1,14 +1,14 @@
-.colors__darkShade75 {
+.colors__green {
     width: 281px;
     height: 70px;
 }
-.darkShade75_square {
-    background-color: rgba(31, 32, 65, 0.75);
+.green_square {
     width: 70px;
     height: 70px;
     border-radius: 6px;
+    background-color: #6fcf97;
 }
-.darkShade75_text {
+.green_text {
     width: 171px;
     height: 70px;
     line-height: 35px;
@@ -17,9 +17,8 @@
     display: flex;
     align-items: center;
 }
-
-.square2 {
+.square7 {
     position: absolute;
     left: 150px;
-    top: 235px;
+    top: 685px
 }

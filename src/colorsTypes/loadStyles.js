@@ -3,3 +3,7 @@ import './colors/colors-style.scss';
 import './colors/darkShade100/darkShade100%-style.scss'
 import './colors/darkShade75/darkShade75%-style.scss'
 import './colors/darkShade50/darkShade50%-style.scss'
+import './colors/darkShade25/darkShade25%-style.scss'
+import './colors/darkShade5/darkShade5%-style.scss'
+import './colors/purple/purple-style.scss'
+import './colors/green/green-style.scss'

@@ -1,0 +1,24 @@
+.colors__darkShade5 {
+    width: 281px;
+    height: 70px;
+}
+.darkShade5_square {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    background-color: rgba(31, 32, 65, 0.05)
+}
+.darkShade5_text {
+    width: 171px;
+    height: 70px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-style: normal;
+}
+.square5{
+    position: absolute;
+    left: 150px;
+    top: 505px;
+}
