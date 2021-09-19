@@ -26,11 +26,12 @@
 
 .colors__darkShade100_text {
   width: 171px;
-  height: 56px;
-  line-height: 28px;
+  height: 70px;
+  line-height: 35px;
   display: flex;
   align-items: center;
-  font-size: 13px;
+  font-size: 10px;
+  font-style: normal;
 }
 
 .text_smaller {
@@ -40,8 +41,46 @@
 
 .text {
   position: absolute;
-  left: 260px;
-  top: 152px;
+  left: 110px;
+  top: 0px;
+}
+.colors__darkShade75 {
+  width: 281px;
+  height: 70px;
+}
+
+.darkShade75_square {
+  background-color: rgba(31, 32, 65, 0.75);
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.darkShade75_text {
+  width: 171px;
+  height: 70px;
+  line-height: 35px;
+  font-style: normal;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.text2 {
+  position: absolute;
+  left: 110px;
+  top: 0px;
+}
+
+.square2 {
+  position: absolute;
+  left: 150px;
+  top: 235px;
+}
+
+.text_smaller2 {
+  font-size: 20px;
+  font-weight: 50;
 }
 
 /*# sourceMappingURL=/loadStyles.21bd9770.css.map */

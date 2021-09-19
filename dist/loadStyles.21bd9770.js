@@ -199,6 +199,11 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+},{"_css_loader":"../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"colors/DarkShade75%/darkShade75%-style.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
 },{"_css_loader":"../../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"loadStyles.js":[function(require,module,exports) {
 "use strict";
 
@@ -207,7 +212,9 @@ require("./colorsTypes-style.scss");
 require("./colors/colors-style.scss");
 
 require("./colors/DarkShade100%/darkShade100%-style.scss");
-},{"./colorsTypes-style.scss":"colorsTypes-style.scss","./colors/colors-style.scss":"colors/colors-style.scss","./colors/DarkShade100%/darkShade100%-style.scss":"colors/DarkShade100%/darkShade100%-style.scss"}],"../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+
+require("./colors/DarkShade75%/darkShade75%-style.scss");
+},{"./colorsTypes-style.scss":"colorsTypes-style.scss","./colors/colors-style.scss":"colors/colors-style.scss","./colors/DarkShade100%/darkShade100%-style.scss":"colors/DarkShade100%/darkShade100%-style.scss","./colors/DarkShade75%/darkShade75%-style.scss":"colors/DarkShade75%/darkShade75%-style.scss"}],"../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -235,7 +242,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "1028" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "1033" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
