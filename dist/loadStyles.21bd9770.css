@@ -206,5 +206,108 @@
   left: 150px;
   top: 685px;
 }
+.colorsTypes__types {
+  width: 436px;
+  height: 310px;
+  border: 1px solid black;
+}
+
+.position {
+  position: absolute;
+  top: 145px;
+  left: 846px;
+}
+
+.top-types {
+  width: 55px;
+  text-align: right;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.margin-top-types {
+  padding: 0px;
+  margin-right: 40px;
+  margin-left: 0px;
+}
+
+.inline {
+  display: inline-block;
+  margin: 0px;
+}
+.types__h1 {
+  height: 69px;
+}
+
+.h1__text-block {
+  width: 70%;
+  text-align: left;
+}
+
+.h1__top-block {
+  margin-top: 0px;
+}
+
+.h1__top-block_text {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.h1__text-block_text {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.h1_position-text {
+  position: relative;
+  left: 88px;
+  top: 0px;
+}
+
+.position-h1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.h1_position-top {
+  position: absolute;
+  top: 0px;
+}
+.types__h2 {
+  text-align: right;
+}
+
+.h2__text-block_text {
+  font-size: 23px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.position-h2 {
+  position: absolute;
+  top: 110px;
+  left: 0px;
+}
+.types__h3 {
+  text-align: right;
+}
+
+.h3_text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.position-h3 {
+  position: absolute;
+  top: 208px;
+  left: 0px;
+}
 
 /*# sourceMappingURL=/loadStyles.21bd9770.css.map */
