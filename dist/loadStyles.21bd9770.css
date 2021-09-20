@@ -278,7 +278,12 @@
   top: 0px;
 }
 .types__h2 {
-  text-align: right;
+  height: 69px;
+}
+
+.h2_text-block {
+  width: 70%;
+  text-align: left;
 }
 
 .h2__text-block_text {
@@ -292,6 +297,16 @@
   position: absolute;
   top: 110px;
   left: 0px;
+}
+
+.h2_position-top {
+  position: absolute;
+  top: 0px;
+}
+
+.h2_position-text {
+  position: relative;
+  left: 88px;
 }
 .types__h3 {
   text-align: right;
