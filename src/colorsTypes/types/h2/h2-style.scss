@@ -1,9 +1,17 @@
 .types__h2 {
-    height: 69px;
+    height: 70px;
 }
 .types__h2_text-block {
-    width: 70%;
+    height: 50px;
     text-align: left;
+}
+.types__h2_top-block {
+    height: 50px;
+    text-align: right;
+}
+.types__h2_top-block_text {
+    padding: 0px;
+    margin: 0px;
 }
 .types__h2_text-block_text {
     font-size: 23px;
@@ -22,5 +30,6 @@
 }
 .h2_position-text {
     position: relative;
+    top: 0px;
     left: 88px;
 }
