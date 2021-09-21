@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(/Montserrat-Medium.d1110365.ttf);
+}
 .colorsTypes {
   width: 1440px;
   height: 900px;
+  font-family: Montserrat;
 }
 .colorsTypes__colors {
   width: 281px;
@@ -30,13 +35,15 @@
   line-height: 35px;
   display: flex;
   align-items: center;
-  font-size: 10px;
+  font-size: 9px;
   font-style: normal;
 }
 
 .text_smaller {
-  font-size: 20px;
-  font-weight: 50;
+  font-family: Montserrat-Light;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .text {
@@ -61,7 +68,7 @@
   height: 70px;
   line-height: 35px;
   font-style: normal;
-  font-size: 10px;
+  font-size: 9px;
   display: flex;
   align-items: center;
 }
@@ -88,7 +95,7 @@
   height: 70px;
   line-height: 35px;
   font-style: normal;
-  font-size: 10px;
+  font-size: 9px;
   display: flex;
   align-items: center;
 }
@@ -115,7 +122,7 @@
   height: 70px;
   line-height: 35px;
   font-style: normal;
-  font-size: 10px;
+  font-size: 9px;
   display: flex;
   align-items: center;
 }
@@ -143,7 +150,7 @@
   line-height: 35px;
   display: flex;
   align-items: center;
-  font-size: 10px;
+  font-size: 9px;
   font-style: normal;
 }
 
@@ -169,7 +176,7 @@
   height: 70px;
   line-height: 35px;
   font-style: normal;
-  font-size: 10px;
+  font-size: 9px;
   display: flex;
   align-items: center;
 }
@@ -196,7 +203,7 @@
   height: 70px;
   line-height: 35px;
   font-style: normal;
-  font-size: 10px;
+  font-size: 9px;
   display: flex;
   align-items: center;
 }
@@ -218,6 +225,7 @@
 }
 
 .top-types {
+  font-family: Montserrat-Light;
   width: 55px;
   font-style: normal;
   font-weight: normal;
@@ -254,7 +262,7 @@
 }
 
 .types__h1_text-block_text {
-  font-size: 26px;
+  font-size: 22px;
   font-style: normal;
   font-weight: bold;
   margin: 0px;
@@ -296,7 +304,7 @@
 }
 
 .types__h2_text-block_text {
-  font-size: 23px;
+  font-size: 19px;
   font-style: normal;
   font-weight: bold;
   margin: 0px;
@@ -327,9 +335,10 @@
 }
 
 .types__h3_text-block_text {
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
   font-weight: bold;
+  text-transform: uppercase;
   margin: 0px;
 }
 
@@ -360,6 +369,7 @@
 }
 
 .types__body_text-block_text {
+  font-family: Montserrat-Light;
   font-size: 17px;
   font-style: normal;
   font-weight: normal;
