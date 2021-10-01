@@ -1,4 +1,4 @@
-.headerNotAuthorized__nav {
+.headerAuthorized__nav {
   width: 447px;
   height: 70px;
   display: inline-block;
@@ -6,11 +6,11 @@
   margin: 0px;
 }
 
-.margin-nav-notAuthorized {
-  margin-left: 285px;
+.margin-nav-authorized {
+  margin-left: 466px;
 }
 
-.headerNotAuthorized__nav_nav-bar {
+.headerAuthorized__nav_nav-bar {
   width: 447px;
   height: 70px;
   line-height: 70px;
@@ -18,12 +18,12 @@
   margin: 0px;
 }
 
-.headerNotAuthorized__nav_nav-bar_elements {
+.headerAuthorized__nav_nav-bar_elements {
   display: inline-block;
   margin-left: 20px;
 }
 
-.headerNotAuthorized__nav_nav-bar_elements:hover {
+.headerAuthorized__nav_nav-bar_elements:hover {
   color: black;
   cursor: pointer;
 }
@@ -32,4 +32,4 @@
   color: black;
 }
 
-/*# sourceMappingURL=/loadNavstyle.d381ef64.css.map */
+/*# sourceMappingURL=/loadNavStyle.2fb84e1d.css.map */
