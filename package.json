@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/colorsTypes/colorsTypes.pug --open",
+    "start": "parcel src/headersFooters/headersFooters.pug --open",
     "build": "parcel build src/index.pug -d docs --public-url ./"
   },
   "repository": {

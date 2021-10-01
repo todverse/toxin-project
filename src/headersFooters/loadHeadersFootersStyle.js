@@ -1,0 +1,1 @@
+import './headersFooters-style.scss';

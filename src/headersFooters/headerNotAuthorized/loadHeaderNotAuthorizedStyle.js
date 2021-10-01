@@ -1,0 +1,1 @@
+import './headerNotAuthorized-style.scss';
