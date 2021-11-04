@@ -1,10 +1,112 @@
 .headersFooters__footerFirst {
     width: 1440px;
     height: 372px;
+    background-color: white;
+    font-size: 6px;
+    font-family: Montserrat;
+    line-height: 20px;
+    color: rgba(31, 32, 65, 0.75);
+    text-align: left;
     display: flex;
+    justify-content: center;
 }
 .elemFirstFooter {
     display: flexbox;
-    width: 20%;
-    border: 1px solid black;
+    width: 232px;
+    height: 172px;
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.headersFooters__footerFirst_logo_text {
+    margin-top: 20px;
+}
+.headText {
+    font-family: Montserrat-Bold;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+.headersFooters__footerFirst_nav {
+    width: 140px;
+    margin-left: 40px;
+}
+.headersFooters__footerFirst_aboutUs {
+    width: 120px;
+    margin-left: 40px;
+}
+.headersFooters__footerFirst_support {
+    width: 220px;
+    margin-left: 40px;
+}
+.headersFooters__footerFirst_subscribe {
+    width: 240px;
+}
+.headersFooters__footerFirst_subscribe_mailBox {
+    width: 245px;
+    display: flex;
+}
+.headersFooters__footerFirst_subscribe_mailBox_mail {
+    width: 200px;
+    height: 34px;
+    border: 1px solid rgba(31, 32, 65, 0.75);;
+    border-right: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: flexbox;
+}
+.headersFooters__footerFirst_subscribe_mailBox_push {
+    width: 35px;
+    height: 38px;
+    border: 1px solid rgba(31, 32, 65, 0.75);;
+    border-left: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flexbox;
+    background-color: white;
+    background-image: url(image/arrow_forward.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.headersFooters__footerFirst_subscribe_mailBox_push:hover {
+    background-color: rgb(206, 205, 205);
+    background-image: url(image/arrow_forward_black.png);
+    cursor: pointer;
+}
+.hover:hover {
+    color: black;
+    cursor: pointer;
+}
+.headersFooters__footerFirst_down {
+    width: 1440px;
+    height: 70px;
+    background-color: white;
+    font-size: 6px;
+    font-family: Montserrat;
+    line-height: 20px;
+    color: rgba(31, 32, 65, 0.75);
+}
+.headersFooters__footerFirst_down_text {
+    margin-left: 140px;
+    margin-top: 25px;
+    height: 20px;
+    display: inline-block;
+}
+.headersFooters__footerFirst_down_icons {
+    width: 112px;
+    height: 24px;
+    display: inline-flex;
+    margin-left: 700px;
+}
+.icons {
+    display: flexbox;
+    margin: auto;
+}
+.icons:hover {
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.margin-footerFirst-down {
+    margin-top: 1px;
 }
