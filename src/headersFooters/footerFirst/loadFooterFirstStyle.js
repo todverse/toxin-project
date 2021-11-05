@@ -1,1 +1,0 @@
-import './footerfirst-style.scss'

@@ -1,1 +1,0 @@
-import './headerAuthorized-style.scss'
