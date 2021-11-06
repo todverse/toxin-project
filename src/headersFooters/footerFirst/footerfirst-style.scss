@@ -5,7 +5,7 @@
     font-size: 6px;
     font-family: $fontStack-light;
     line-height: 20px;
-    color: rgba(31, 32, 65, 0.75);
+    color: $darkShade75;
     text-align: left;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@
 .headersFooters__footerFirst_subscribe_mailBox_mail {
     width: 200px;
     height: 34px;
-    border: 1px solid rgba(31, 32, 65, 0.75);;
+    border: 1px solid $darkShade75;;
     border-right: none;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -58,7 +58,7 @@
 .headersFooters__footerFirst_subscribe_mailBox_push {
     width: 35px;
     height: 38px;
-    border: 1px solid rgba(31, 32, 65, 0.75);;
+    border: 1px solid $darkShade75;
     border-left: none;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -84,7 +84,7 @@
     font-size: 6px;
     font-family: Montserrat;
     line-height: 20px;
-    color: rgba(31, 32, 65, 0.75);
+    color: $darkShade75;
 }
 .headersFooters__footerFirst_down_text {
     margin-left: 140px;
