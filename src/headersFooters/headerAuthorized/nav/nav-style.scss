@@ -5,13 +5,21 @@
     font-size: 14px;
     margin: 0px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1150px) {
     .headerAuthorized__nav {
         font-size: 11px;
     }
+    .headerAuthorized__nav_nav-bar_elements {
+        margin-left: 1%;
+    }
 }
 .margin-nav-authorized {
-    margin-left: 25%;
+    margin-left: 20%;
+}
+@media screen and (max-width: 1150px) {
+    .margin-nav-authorized {
+        margin-left: 10%;
+    }
 }
 .headerAuthorized__nav_nav-bar {
     width: 100%;

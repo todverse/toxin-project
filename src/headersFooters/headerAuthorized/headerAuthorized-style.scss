@@ -29,6 +29,11 @@
         font-size: 11px;
     }
 }
+@media screen and (max-width: 1000px) {
+    .headersFooters__headerAuthorized_account_name {
+        margin-left: 10%;
+    }
+}
 .headersFooters__headerAuthorized_account_name:hover {
     cursor: pointer;
     color: $darkShade100;
