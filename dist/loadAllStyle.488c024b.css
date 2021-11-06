@@ -412,28 +412,30 @@
 }
 
 .headersFooters {
-  width: 1440px;
+  width: 100%;
   height: 1350px;
   background-color: #F4F4F6;
 }
 
 .headersFooters__headerAuthorized {
-  width: 1440px;
+  width: 100%;
   height: 70px;
   background-color: white;
   font-family: Montserrat-Light;
 }
 
 .headersFooters__headerAuthorized_logo {
-  width: 105px;
+  width: 8%;
   height: 70px;
   display: inline-block;
+  margin: 0;
 }
 
 .headersFooters__headerAuthorized_account {
   display: inline-block;
-  width: 150px;
+  width: 11%;
   height: 70px;
+  margin-left: 1%;
 }
 
 .headersFooters__headerAuthorized_account_name {
@@ -445,14 +447,19 @@
   padding-left: 5px;
 }
 
+@media screen and (max-width: 1000px) {
+  .headersFooters__headerAuthorized_account_name {
+    font-size: 11px;
+  }
+}
 .headersFooters__headerAuthorized_account_name:hover {
   cursor: pointer;
-  color: #1f2041;
+  color: #1F2041;
 }
 
 .margin-logo-box-a {
   margin-top: 0px;
-  margin-left: 140px;
+  margin-left: 10%;
 }
 
 .margin-logo-a {
@@ -465,19 +472,24 @@
 }
 
 .headerAuthorized__nav {
-  width: 500px;
+  width: 45%;
   height: 70px;
   display: inline-block;
   font-size: 14px;
   margin: 0px;
 }
 
+@media screen and (max-width: 1000px) {
+  .headerAuthorized__nav {
+    font-size: 11px;
+  }
+}
 .margin-nav-authorized {
-  margin-left: 400px;
+  margin-left: 25%;
 }
 
 .headerAuthorized__nav_nav-bar {
-  width: 447px;
+  width: 100%;
   height: 70px;
   line-height: 70px;
   color: rgba(31, 32, 65, 0.5);
@@ -486,7 +498,7 @@
 
 .headerAuthorized__nav_nav-bar_elements {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 3%;
 }
 
 .headerAuthorized__nav_nav-bar_elements:hover {
@@ -598,7 +610,7 @@
 }
 
 .headersFooters__footerFirst {
-  width: 1440px;
+  width: 100%;
   height: 372px;
   background-color: white;
   font-size: 6px;
@@ -612,7 +624,7 @@
 
 .elemFirstFooter {
   display: flexbox;
-  width: 232px;
+  width: 16%;
   height: 172px;
   margin: auto;
   margin-right: 0px;
@@ -631,31 +643,31 @@
 }
 
 .headersFooters__footerFirst_nav {
-  width: 140px;
+  width: 10%;
   margin-left: 40px;
 }
 
 .headersFooters__footerFirst_aboutUs {
-  width: 120px;
+  width: 9%;
   margin-left: 40px;
 }
 
 .headersFooters__footerFirst_support {
-  width: 220px;
+  width: 15%;
   margin-left: 40px;
 }
 
 .headersFooters__footerFirst_subscribe {
-  width: 240px;
+  width: 16%;
 }
 
 .headersFooters__footerFirst_subscribe_mailBox {
-  width: 245px;
+  width: 19%;
   display: flex;
 }
 
 .headersFooters__footerFirst_subscribe_mailBox_mail {
-  width: 200px;
+  width: 90em;
   height: 34px;
   border: 1px solid rgba(31, 32, 65, 0.75);
   border-right: none;
@@ -665,7 +677,7 @@
 }
 
 .headersFooters__footerFirst_subscribe_mailBox_push {
-  width: 35px;
+  width: 30em;
   height: 38px;
   border: 1px solid rgba(31, 32, 65, 0.75);
   border-left: none;
@@ -690,27 +702,27 @@
 }
 
 .headersFooters__footerFirst_down {
-  width: 1440px;
+  width: 100%;
   height: 70px;
   background-color: white;
   font-size: 6px;
-  font-family: Montserrat;
+  font-family: Montserrat-Light;
   line-height: 20px;
   color: rgba(31, 32, 65, 0.75);
 }
 
 .headersFooters__footerFirst_down_text {
-  margin-left: 140px;
+  margin-left: 10%;
   margin-top: 25px;
   height: 20px;
   display: inline-block;
 }
 
 .headersFooters__footerFirst_down_icons {
-  width: 112px;
+  width: 9%;
   height: 24px;
   display: inline-flex;
-  margin-left: 700px;
+  margin-left: 40%;
 }
 
 .icons {

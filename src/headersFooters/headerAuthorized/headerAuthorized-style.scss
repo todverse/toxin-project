@@ -1,18 +1,20 @@
 .headersFooters__headerAuthorized {
-    width: 1440px;
+    width: 100%;
     height: 70px;
     background-color: white;
     font-family: $fontStack-light;
 }
 .headersFooters__headerAuthorized_logo {
-    width: 105px;
+    width: 8%;
     height: 70px;
     display: inline-block;
+    margin: 0;
 }
 .headersFooters__headerAuthorized_account {
     display: inline-block;
-    width: 150px;
+    width: 11%;
     height: 70px;
+    margin-left: 1%;
 }
 .headersFooters__headerAuthorized_account_name {
     display: inline-block;
@@ -22,13 +24,18 @@
     color: $darkShade50;
     padding-left: 5px;
 }
+@media screen and (max-width:1000px) {
+    .headersFooters__headerAuthorized_account_name {
+        font-size: 11px;
+    }
+}
 .headersFooters__headerAuthorized_account_name:hover {
     cursor: pointer;
-    color: rgba(31, 32, 65, 1);
+    color: $darkShade100;
 }
 .margin-logo-box-a {
     margin-top: 0px;
-    margin-left: 140px;
+    margin-left: 10%;
 }
 .margin-logo-a {
     position: relative;

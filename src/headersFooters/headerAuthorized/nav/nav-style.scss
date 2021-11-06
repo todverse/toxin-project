@@ -1,15 +1,20 @@
 .headerAuthorized__nav {
-    width: 500px;
+    width: 45%;
     height: 70px;
     display: inline-block;
     font-size: 14px;
     margin: 0px;
 }
+@media screen and (max-width: 1000px) {
+    .headerAuthorized__nav {
+        font-size: 11px;
+    }
+}
 .margin-nav-authorized {
-    margin-left: 400px;
+    margin-left: 25%;
 }
 .headerAuthorized__nav_nav-bar {
-    width: 447px;
+    width: 100%;
     height: 70px;
     line-height: 70px;
     color: $darkShade50;
@@ -17,7 +22,7 @@
 }
 .headerAuthorized__nav_nav-bar_elements {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 3%;
 }
 
 .headerAuthorized__nav_nav-bar_elements:hover {
