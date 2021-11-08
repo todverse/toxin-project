@@ -1,0 +1,31 @@
+.formElements__dropDown {
+    width: 320px;
+    height: 67px;
+    font-family: $fontStack-bold;
+    font-size: 6px;
+}
+.formElements__dropDown_text {
+    margin-bottom: 0px;
+}
+.formElements__dropDown_field {
+    width: 98%;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid $darkShade25;
+    margin-top: 2px;
+    background-image: url(assets/image/expand_more.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 300px;
+}
+.formElements__dropDown_field:hover{
+    border: 1px solid $darkShade50;
+}
+.formElements__dropDown_field:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid $darkShade50;
+}
+.formElements__dropDown_field::-webkit-input-placeholder {
+    font-family: $fontStack-light;
+}
