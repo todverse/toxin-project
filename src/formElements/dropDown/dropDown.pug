@@ -2,5 +2,8 @@ div(class='formElements__dropDown')
     h1(class='formElements__dropDown_text') DROPDOWN 
     input(class='formElements__dropDown_field' type="text", name="numGuest" placeholder='Сколько гостей')
     div(class='formElements__dropDown_hideElem')
-        h1(class='formElements__dropDown_hideElem_adult') Взрослых <button class='formElements__dropDown_hideElem_buttonCount margin-buttonCount'>+</button><button class='formElements__dropDown_hideElem_buttonCount'>-</button>
-        h1(class='formElements__dropDown_hideElem_notAdult') Детей <button class='formElements__dropDown_hideElem_buttonCount margin-buttonCount'>+</button><button class='formElements__dropDown_hideElem_buttonCount'>-</button>
+        h1(class='formElements__dropDown_hideElem_adult hideElem_text_padding') ВЗРОСЛЫЕ <button class='formElements__dropDown_hideElem_buttonCount margin-buttonCount'>+</button><span class='span'>0</span><button class='formElements__dropDown_hideElem_buttonCount disabled_button'>-</button>
+        h1(class='formElements__dropDown_hideElem_notAdult hideElem_text_padding') ДЕТИ <button class='formElements__dropDown_hideElem_buttonCount margin-buttonCount'>+</button><span class='span'>0</span><button class='formElements__dropDown_hideElem_buttonCount disabled_button'>-</button>
+        h1(class='formElements__dropDown_hideElem_notAdult hideElem_text_padding') МЛАДЕНЦЫ <button class='formElements__dropDown_hideElem_buttonCount margin-buttonCount'>+</button><span class='span'>0</span><button class='formElements__dropDown_hideElem_buttonCount disabled_button'>-</button>
+        button(class='formElements__dropDown_hideElem_clear button-dropDown') Очистить
+        button(class='formElements__dropDown_hideElem_submit button-dropDown' type="submit") Применить
