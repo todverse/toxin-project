@@ -1,0 +1,31 @@
+.formElements__maskedTextField {
+    width: 320px;
+    height: 67px;
+    font-family: $fontStack-bold;
+    font-size: 6px;
+    display: block;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.formElements__maskedTextField_text {
+    margin-bottom: 0px;
+}
+.formElements__maskedTextField_field {
+    width: 316px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid $darkShade25;
+    margin-top: 2px;
+}
+.formElements__maskedTextField_field:hover{
+    border: 1px solid $darkShade50;
+}
+.formElements__maskedTextField_field:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid $darkShade50;
+}
+.formElements__maskedTextField_field::-webkit-input-placeholder {
+    font-family: $fontStack-light;
+}

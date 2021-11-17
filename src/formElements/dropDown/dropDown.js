@@ -63,7 +63,7 @@ let hide = () => {
     dropDown.addEventListener('click', show);
 };
 let show = () => {
-    hideElem.style.display = '';
+    hideElem.style.display = 'block';
     dropDown.style.borderBottom = 'none';
     dropDown.style.borderBottomLeftRadius = '0px';
     dropDown.style.borderBottomRightRadius = '0px';

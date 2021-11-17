@@ -13,6 +13,7 @@
     border-radius: 4px;
     border: 1px solid $darkShade25;
     margin-top: 2px;
+    color: $darkShade50;
     background-image: url(assets/image/expand_more.svg);
     background-repeat: no-repeat;
     background-position-y: center;
@@ -31,6 +32,7 @@
 }
 .formElements__dropDown_hideElem {
     width: 100%;
+    display:block;
     height: 150px;
     font-family: $fontStack-bold;
     color: $darkShade100;
