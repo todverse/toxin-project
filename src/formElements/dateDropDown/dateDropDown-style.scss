@@ -15,6 +15,19 @@
 #input1 {
     margin-left: 5px;
 }
-.formElements__dateDropDown_dateTextField:hover {
-    cursor:pointer;
+.formElements__dateDropDown_dateTextField:hover{
+    border: 1px solid $darkShade50;
+    cursor: pointer;
+}
+.formElements__dateDropDown_dateTextField:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid $darkShade50;
+}
+.formElements__dateDropDown_dateTextField::-webkit-input-placeholder {
+    font-family: $fontStack-light;
+}
+.-current- {
+    border-radius: 100px;
+    background-color: turquoise;
 }
