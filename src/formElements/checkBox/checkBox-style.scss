@@ -1,0 +1,32 @@
+.formElements__checkBox {
+    width: 222px;
+    font-family: $fontStack-bold;
+    font-size: 6px;
+}
+input[type=checkbox] {
+    display: none;
+}
+label {
+    display: inline-block;
+    font-family: $fontStack-light;
+    font-size: 2.5em;
+    color: $darkShade50;
+}
+
+/* Checkboxes */
+input[type=checkbox] + label span {
+    border: 1px solid $darkShade50;
+    border-radius: 4px;
+    font-size: 24pt;
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    line-height: 0.25em;
+    margin: 4px 8px 8px 8px;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+ input[type=checkbox]:checked + label span::after {
+    content: "\2713";
+}
